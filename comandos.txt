@@ -1,0 +1,72 @@
+  113  mkdir checkpoint
+  114  cd checkpoint/
+  115  git init
+  116  git config
+  117  git status
+  118  ls
+  119  git remote add https://github.com/IsallinasA/Checkpoint-Isabella-Llinas
+  120  cd ..
+  121  cd checkpoint-isabella-llinas/
+  122  git remote add https://github.com/IsallinasA/Checkpoint-Isabella-Llinas~
+  123  git remote add https://github.com/IsallinasA/Checkpoint-Isabella-Llinas
+  124  git add remote https://github.com/IsallinasA/Checkpoint-Isabella-Llinas
+  125  git remote add origin https://github.com/IsallinasA/Checkpoint-Isabella-Llinas
+  126  git status
+  127  touch main.js
+  128  touch index.html
+  129  git add .
+  130  git commit -m "primer commit"
+  131  git push
+  132  git push -u origin master
+  133  git config --global
+  134  git push -u origin master
+  135  git config --global
+  136  git config --local
+  137  cd hardware/
+  138  touch resumen.txt
+  139  cd ..
+  140  cd software/
+  141  touch resumen.txt
+  142  cd ..
+  143  cd seguridadInformatica/
+  144  touch resumen.txt
+  145  cd ..
+  146  mv resumenHardware.txt.js resumenHardware.txt
+  147  mv index.html resumenSoftware.txt
+  148  git clone https://github.com/IsallinasA/Checkpoint-Isabella-Llinas~
+  149  git clone https://github.com/IsallinasA/Checkpoint-Isabella-Llinas
+  150  git status
+  151  cd Checkpoint-Isabella-Llinas/
+  152  touch main.js
+  153  touch index.html
+  154  ls
+  155  git add.
+  156  git commit -m "First Commit"
+  157  git add ,
+  158  git add .
+  159  git commit -m "First Commit"
+  160  git push
+  161  git remote -v
+  162  git push
+  163  git branch feature
+  164  git checkout feature
+  165  mkdir Hardware
+  166  mkdir Software
+  167  mkdir SeguridadInformatica
+  168  cd Hardware/
+  169  touch resumen.txt
+  170  cd ..
+  171  cd Software/
+  172  touch resumen.txt
+  173  cd ..
+  174  cd SeguridadInformatica/
+  175  touch resumen.txt
+  176  cd ..
+  177  git add .
+  178  git commit -m "Resumenes en Feature"
+  179  git push origin feature
+  180  git checkout main
+  181  mv main.js resumenHardware.txt
+  182  mv index.html resumenSoftware.txt
+  183  cat resumenHardware.txt
+  184  touch comandos.txt
